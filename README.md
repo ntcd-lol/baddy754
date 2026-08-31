@@ -9,5 +9,6 @@
         
 [![current release](https://img.shields.io/github/release/ntcd-lol/baddy754.svg?style=for-the-badge)](https://github.com/ntcd-lol/baddy754/releases)
 [![license](https://img.shields.io/github/license/ntcd-lol/baddy754.svg?style=for-the-badge)](https://github.com/ntcd-lol/baddy754/blob/master/LICENSE)
-<img alt="Commits" src="https://img.shields.io/github/commit-activity/m/ntcd-lol/pse-lua?style=for-the-badge">
+[![commits](https://img.shields.io/github/commit-activity/m/ntcd-lol/pse-lua?style=for-the-badge")](https://github.com/ntcd-lol/baddy754/commit/main)
+
 </div>
