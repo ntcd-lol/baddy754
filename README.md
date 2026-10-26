@@ -194,21 +194,32 @@ These operations are intended for low-level floating-point experiments and shoul
 
 ## Trigonometric operations — `B754/trig.hpp`
 
-The `baddy754::trig` namespace currently provides sine functions for two floating-point types:
+## Trigonometric operations — `B754/trig.hpp`
+
+<div align="center">
+    <img src="./content/sin.bmp" alt="Sine function reference" width="600"/>
+    <p><em>Sine function reference.</em></p>
+</div>
+
+The `baddy754::trig` namespace provides sine functions for `float` and `double`:
 
 ```cpp
 float  baddy754::trig::sin(float x);
 double baddy754::trig::sin(double x);
 ```
 
-Example:
+The input argument is measured in radians.
 
 ```cpp
-float a = baddy754::trig::sin(0.5f);
-double b = baddy754::trig::sin(1.0);
+#include <B754/trig.hpp>
+
+int main() {
+    float a = baddy754::trig::sin(0.5f);
+    double b = baddy754::trig::sin(1.0);
+}
 ```
 
-The input is measured in **radians**.
+The implementation combines IEEE 754 bit inspection, argument reduction, and polynomial approximation. The image above provides a visual reference for the sine function; it is not loaded or evaluated by the implementation at runtime.
 
 ### How `sin()` works
 
