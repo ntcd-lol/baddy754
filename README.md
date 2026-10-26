@@ -194,10 +194,8 @@ These operations are intended for low-level floating-point experiments and shoul
 
 ## Trigonometric operations — `B754/trig.hpp`
 
-## Trigonometric operations — `B754/trig.hpp`
-
 <div align="center">
-    <img src="./content/sin.bmp" alt="Sine function reference" width="600"/>
+    <img src="./content/sin.bmp" alt="Sine function reference" width="50"/>
     <p><em>Sine function reference.</em></p>
 </div>
 
